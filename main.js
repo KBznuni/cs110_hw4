@@ -122,6 +122,13 @@ const searchItems = function(){
     })
 
 };
+<style>
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="browsing.webm" type="video/webm">
+    </video>
+</div>
+</style>
 
 $("#addButton").on('click',function(){
     addItem();

@@ -1,8 +1,16 @@
 body {
-    background: lightcyan;
-    color: #333;
+    backgroundVideo: url("browsing.webm");
     font-family: Verdana, sans-serif;
 }
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 .container {
     display: block;
     width: 400px;
